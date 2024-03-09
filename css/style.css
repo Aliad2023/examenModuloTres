@@ -1,0 +1,126 @@
+/* *********************************** */
+/* *** ESTILOS GENERALES *** */
+/* *********************************** */
+
+/* Tipografía */
+@font-face {
+	font-family: "";
+	src: url("") format("woff2"), url("") format("woff");
+	}
+
+  /* ******************************** */
+
+  /* Colores */
+
+  /* ******************************** */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #f0f0f0;
+}
+.container{
+	padding: 50px;
+	border: 70px solid #eee34f; 
+}
+.header__menu {
+	flex-grow: 1;
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	text-align: center; 
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+.header__link {
+	text-decoration: none;
+	color: black;
+	margin: auto; 
+	
+}
+.header__textoPrimera{
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+}
+.header__textoSegunda{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+main{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr) 1fr;
+	gap: 20px; 
+}
+.texto {
+	grid-column: span 2; 
+}
+
+	.texto__grande {
+	font-size: 60px; 
+	font-weight: bold; 
+	margin-bottom: 20px;
+	}
+
+	.texto__pequeño {
+	font-size: 24px; 
+	color: #666666; 
+	margin-bottom: 20px; 
+	}
+	.texto__Boton{
+	grid-column: 1 / 1;
+	padding: 8px 16px;
+	font-size: 16px;
+	background-color: #f79b12;
+	color: #ffffff;
+	border: solid 1px;
+	cursor: pointer;
+
+	}
+	.learnMore{
+	grid-column: 1/ 1;
+	padding: 40px;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	}
+
+	.texto img {
+	display: block; 
+	grid-column: 3; 
+	
+	}
+
+	footer {
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	padding-top: 50px;
+	}
+
+.iconos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+	color: #666666; 
+	}
+
+	.iconos img {
+	width: 80px;
+	height: 80px;
+	}
+
+.iconos img:hover {
+	transform: scale(1.2);
+}
+
+
+
+
